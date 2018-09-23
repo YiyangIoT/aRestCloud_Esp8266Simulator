@@ -63,7 +63,7 @@ function subTopic() {
 }
 
 window.onload = () => {
-  // topic = "SimId" + getRandNum(6);
-  topic = "SimId_debug123";
+  topic = "SimId" + getRandNum(6);
+  // topic = "SimId_debug123";
   document.getElementById('txtSubTopic').value = topic + "_in";
 }
